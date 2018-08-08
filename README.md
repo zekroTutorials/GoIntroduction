@@ -12,7 +12,7 @@ Die Tutorials sollen sich dabei auf das wesentliche beziehen und deswegen kurz u
 
 | #   | Episode                         | Branch                               | Video                               |
 |-----|---------------------------------|--------------------------------------|-------------------------------------|
-| 0   | Setup, Einrichtung, Hello World | -/-                                  | -/-                                 |
+| 0   | Setup, Einrichtung, Hello World | [01-setup](https://github.com/zekroTutorials/GoIntroduction/tree/01-setup)                           | -/-                                 |
 | 1   | Variablen                       | -/-                                  | -/-                                 |
 | 2   | Logik & Schleifen               | -/-                                  | -/-                                 |
 | 3   | Funktionen                      | -/-                                  | -/-                                 |
