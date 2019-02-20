@@ -1,56 +1,54 @@
+// On Playground: https://play.golang.com/p/4y1Iq3iHj4i
+
 package main
 
 import "fmt"
 
 func main() {
 
-	// Definition einer uninitialisierten Integer Variable
+	// Erstellt einen Integer (int64)
+	// initialisiert mit dem Wert 1
 	var myInt int
-	// Initialisierung dieser Variable mit dem Wert 5
-	myInt = 5
 
-	// Hier noch ein paar andere Datentypen aufgelistet:
+	// String mit dem initialisiertem Wert ""
 	var myString string
-	var myFloat32 float32
-	var myFloat64 float64
 
-	// So definiert man uninitialisierte Arrays:
-	var myStringArray []string
-	var myIntArray []int
-	// ...
-	// Diese Arrays sind 0-Arrays, welche keine Indices haben.
-	// myStringArray[0] = 1 -> Das würde einen 'index out of range' error geben
-	// Deswegen muss man an der stelle das Array erweitern mit:
-	myIntArray = append(myIntArray, 3)
+	// Initialisiert eine Variable implizit
+	// als den Typ des Wertes, hier float64
+	pi := 3.1415
 
-	// Man kann auch, wie bei Java oder C++ gewohnt, Arrays
-	// mit einer festgelegten Größe erstellen:
-	var myFloatArray [5]float32
-	// Dieses Array ist nun initialisiert mit den Wreten [0 0 0 0 0]
-	// Wie gewoht kann man hier den Wert eines Index bestimmen:
-	myFloatArray[2] = 3.1415
+	// Es ist auch möglich Variablen in einer
+	// art Chain zu initialisieren
+	x, y, z := 3, 5, 1
 
-	// Es gibt auch noch folgende Möglichkeit, variablen direkt zu
-	// definieren und zu initialisieren:
-	myInitializedString := "Hey!"
-	myInitializedInt := 3
-	// Go erkennt, mit welchen Typ die Variable erstellt werden soll
-	// und deren wert wird direkt festgesetzt.
+	// Definiert ein Integer Array mit der
+	// Größe 0 und dem initialisiertem Wert
+	// [ ] (len = 0)
+	var myArray []int
 
-	// Dies funktioniert auch beim erstellen eines Arrays mit
-	// festgelegter Größe:
-	myInitializedStringArray := make([]string, 5)
-	// Dieses Array beinhaltet dann auch 5 leere ("") Strings.
+	// Es ist auch mölglich, ein leeres,
+	// initialisiertes Array fester Größe
+	// zu erstellen.
+	var mySizedArray [5]int
 
-	// Es gibt auch einen Typ 'interface{}', welcher
-	// einen unbestimmten Typ ausdrückt:
-	var myVar interface{}
-	myVar = 5
-	myVar = "5"
-	myVar = 5.0
+	// Das Selbe ist auch mit folgender
+	// Funktion möglich
+	mySizedArray2 := make([]int, 5)
 
-	fmt.Println(myInt, myString, myFloat32,
-		myFloat64, myStringArray, myIntArray,
-		myFloatArray, myInitializedString,
-		myInitializedInt, myInitializedStringArray, myVar)
+	// Oder man initialisiert implizit ein
+	// Aray mit vordefinierten Werten.
+	myStringArray := []string{"hey", "ho"}
+
+	// Erstellt eine Map mit dem Key-Type string
+	// und dem Value-Type int
+	var myMap map[string]int
+
+	// Ist im Prinzip das selbe wie
+	// folgende Funktion
+	myMap2 := make(map[string]int)
+
+	// Alle Werte der Variablen ausgegeben, damit
+	// der Compiler nicht meckert ;)
+	fmt.Println(myInt, myString, pi, x, y, z, myArray, mySizedArray,
+		mySizedArray2, myStringArray, myMap, myMap2)
 }
