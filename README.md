@@ -13,7 +13,7 @@ Die Tutorials sollen sich dabei auf das wesentliche beziehen und deswegen kurz u
  Nr. | Episode                         | Branch                                                                         | Video                               
 -----|---------------------------------|--------------------------------------------------------------------------------|-------------------------------------
  0   | Setup, Einrichtung, Hello World | [00-setup](00-setup)          | [Video](https://youtu.be/QUIR_FNybjU) 
- 1   | Variablen                       | [01-variables](01-variables)  | -/-                                 
+ 1   | Variablen                       | [01-variables](01-variables)  | [Video](https://youtu.be/OjiAU2pOvSs)                                 
  2   | Logik & Schleifen               | -/-                                                                            | -/-                                 
  3   | Funktionen                      | -/-                                                                            | -/-                                 
  4   | Packages / Exporting            | -/-                                                                            | -/-                                 
