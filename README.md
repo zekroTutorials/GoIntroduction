@@ -10,11 +10,11 @@ Zudem orientiert sich die Reihe stark an der offiziellen [Go-Tour](https://tour.
 Die Tutorials sollen sich dabei auf das wesentliche beziehen und deswegen kurz und pregnant sein.
 
 
- Nr. | Episode                         | Branch                                                                         | Video                               
+ Nr. | Episode                         | Code                                                                           | Video                               
 -----|---------------------------------|--------------------------------------------------------------------------------|-------------------------------------
  0   | Setup, Einrichtung, Hello World | [00-setup](00-setup)          | [Video](https://youtu.be/QUIR_FNybjU) 
  1   | Variablen                       | [01-variables](01-variables)  | [Video](https://youtu.be/OjiAU2pOvSs)                                 
- 2   | Logik & Schleifen               | -/-                                                                            | -/-                                 
+ 2   | Logik & Schleifen               | [02-variables](02-variables)  | -/-                                 
  3   | Funktionen                      | -/-                                                                            | -/-                                 
  4   | Packages / Exporting            | -/-                                                                            | -/-                                 
  5   | Pointer                         | -/-                                                                            | -/-                                 

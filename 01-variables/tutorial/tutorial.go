@@ -1,3 +1,6 @@
+// In dieser Datei befindet sich der Code, welchen ich "live"
+// in der Aufnahme des Tutorials erstellt habe.
+
 package main
 
 import (
